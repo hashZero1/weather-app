@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function CityDetails({city}) {
     return(
-        <div className="max-h-screen flex items-center justify-center py-4 opacity-90">
+        <div className="max-h-full flex items-center justify-center py-4 opacity-90">
             <div className="flex flex-col bg-white rounded-lg p-4 w-full max-w-lg dark:bg-gray-700 shadow-lg heropattern-diagonallines-gray-600">
                 <div className="font-bold text-xl text-gray-100">{city.location.name},<span className="text-xl">{city.location.region}</span></div>
 						<div className="text-sm text-gray-100">{city.location.localtime}</div>
